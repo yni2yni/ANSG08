@@ -47,7 +47,7 @@
 
 #define Output  0x2A //Touch Output Data Register  (ch = 1bit)
 
-#define ANSG08_ID  0x24 //0x48<<1 (7bit=0x24, 8bit=0x48)
+#define ANSG08_ID  0x24 //0x48>>1 (7bit=0x24, 8bit=0x48)
 
 void  Init_ANSG08(void); //Initialize ANSG08
 
